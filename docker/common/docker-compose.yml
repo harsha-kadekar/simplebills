@@ -1,0 +1,6 @@
+version: '2'
+services:
+  producer:
+    image: anucreators/simplebills-producer:0.0.1-SNAPSHOT
+    ports:
+    - "8080:8080"
